@@ -1,5 +1,4 @@
 require "pry"
 
 def reverse_each_word(sentence1)
-  sentence1.reverse!
-end 
+  split_sentence = sentence1.split("")
