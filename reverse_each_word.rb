@@ -2,7 +2,7 @@ require "pry"
 
 def reverse_each_word(string)
   empty = []
-  string.split.each do |word|
+  string.split.map do |word|
     empty << word.reverse
   end
   return empty.join(" ")
